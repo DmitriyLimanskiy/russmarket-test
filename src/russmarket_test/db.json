@@ -1,0 +1,66 @@
+{
+  "snapshot": {
+    "weekday": "понедельник",
+    "time": "10:00"
+  },
+  "cases": [
+    {
+      "id": "С-17",
+      "type": "Оформление сотрудника",
+      "crm": {
+        "first_shift_day_offset": 1,
+        "documents_status": "Ожидаются"
+      },
+      "messages": [
+        {
+          "author_role": "Сотрудник",
+          "text": "Вчера отправил фотографии документов руководителю в личку"
+        }
+      ]
+    },
+    {
+      "id": "С-24",
+      "type": "Увольнение сотрудника",
+      "crm": {
+        "last_working_day_offset": 0,
+        "manager_confirmation": false
+      },
+      "messages": [
+        {
+          "author_role": "Сотрудник",
+          "text": "С руководителем всё обсудили, он в курсе"
+        }
+      ]
+    },
+    {
+      "id": "П-08",
+      "type": "Поставка карт",
+      "crm": {
+        "delivery_due_day_offset": 0,
+        "delivery_due_time": "10:00",
+        "status": "В пути"
+      },
+      "messages": [
+        {
+          "author_role": "Курьер",
+          "text": "Задерживаюсь, раньше 13:00 не приеду"
+        }
+      ]
+    },
+    {
+      "id": "П-09",
+      "type": "Поставка карт",
+      "crm": {
+        "status": "Принято",
+        "receipt_confirmed_day_offset": 0,
+        "receipt_confirmed_time": "09:20"
+      },
+      "messages": [
+        {
+          "author_role": "Получатель",
+          "text": "Карты получили, количество проверили"
+        }
+      ]
+    }
+  ]
+}
